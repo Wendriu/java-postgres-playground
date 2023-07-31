@@ -12,11 +12,7 @@ public class App {
     private static final String JDBC_URL = "jdbc:postgresql://localhost/postgres";
 
     public static void main(String[] args) {
-        //new App();
-        
-        int vetor[] = {0,2,4,6,8,10};
-        System.out.println(Arrays.toString(vetor));
-
+        new App();
     }
 
     public App(){
